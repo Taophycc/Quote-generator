@@ -9,17 +9,6 @@ body {
   padding: 0;
   min-height: 100vh;
   background-color: #e0e1dd;
-  /* background-color: #ffffff 0.1;
-  opacity: 1;
-  background-size: 20px 20px;
-  background-image: repeating-linear-gradient(
-    0deg,
-    #000000,
-    #000000 1px,
-    #fcfcfc 1px,
-    #fcfcfc
-  );
-  */
   color: #1b263b;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
@@ -96,16 +85,15 @@ button:active {
 
 #new-quote {
   display: flex;
-  flex-direction: row-reverse; 
+  flex-direction: row-reverse;
   align-items: center;
   gap: 6px;
 }
 
 #new-quote:hover {
-    color: #e0e1dd;
+  color: #e0e1dd;
 }
 
-/* Loader */
 .loader {
   border: 16px solid #f3f3f3;
   border-top: 16px solid #333;
