@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   async function loadQuotes() {
     loading();
     try {
-      const response = await fetch("quotes.json");
+      const response = await fetch("data/quotes.json");
       if (!response.ok) throw new Error("Failed to load quotes");
       quotes = await response.json();
       displayRandomQuote();
