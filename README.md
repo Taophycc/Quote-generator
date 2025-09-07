@@ -11,7 +11,7 @@ Built using **HTML, CSS, and JavaScript**, and powered by a local `quotes.json` 
 - ⚡ No backend required — works entirely in the browser  
 
 ## 🚀 Demo  
-[Live Demo](#) 
+[Live Demo](https://taophycc-quote-generator.vercel.app/) 
 
 ## 📄 License  
 This project is licensed under the [MIT License](LICENSE).  
