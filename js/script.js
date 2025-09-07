@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     quote.textContent = quoteData.quote;
 
     // Set Quote, Hide Loader
-    quoteAuthor.textContent = `-${quoteData.author}`;
+    quoteAuthor.textContent = `${quoteData.author}`;
     complete();
   }
 
